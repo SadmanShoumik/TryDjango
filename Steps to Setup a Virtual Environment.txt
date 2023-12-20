@@ -10,5 +10,6 @@ Steps to Setup a Virtual Environment on Windows using PowerShell:
     Step 08: Activate the virtual environment> .\virtualenv\Scripts\Activate.ps1
     Step 09: Launch VS Code in the current directory> code .
     Step 10: Install Django> pip install Django
+    Step 11: Deactivate Django> deactivate
 
 Use for Reference: https://medium.com/@astontechnologies/how-to-setup-a-virtual-development-environment-for-python-with-windows-powershell-4cd34b2f9f9b
