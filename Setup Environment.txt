@@ -1,0 +1,11 @@
+Step 01: cd into desired folder.
+Step 02: mkdir needed project directory.
+Step 03: Check pip version> python -m pip list
+Step 04: Update if necessary> python.exe -m pip install --upgrade pip
+Step 05: Check installed packages> python -m pip list
+Step 06: Check if the virtual envronment was created properly> ls
+Step 07: If running scripts is disabled on your system> Set-ExecutionPolicy RemoteSigned
+Step 08: Activate the virtual environment> .\virtualenv\Scripts\Activate.ps1
+Step 09: Launch VS Code in the current directory> code .
+
+Use for Reference: https://medium.com/@astontechnologies/how-to-setup-a-virtual-development-environment-for-python-with-windows-powershell-4cd34b2f9f9b
