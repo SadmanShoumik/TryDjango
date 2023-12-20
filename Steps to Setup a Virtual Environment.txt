@@ -9,7 +9,7 @@ Steps to Setup a Virtual Environment on Windows using PowerShell:
     Step 07: Create a virtual environment within the project folder>--------->python -m venv D:\Django\TryDjango\venv
     Step 08: Check if the virtual envronment was created properly>----------->ls
     Step 09: If running scripts is disabled on your system>------------------>Set-ExecutionPolicy RemoteSigned
-    Step 10: Activate the virtual environment>------------------------------->.\virtualenv\Scripts\Activate.ps1
+    Step 10: Activate the virtual environment>------------------------------->.\venv\Scripts\Activate.ps1
     Step 11: Launch VS Code in the current directory>------------------------>code .
     Step 12: Install Django>------------------------------------------------->pip install Django
     Step 13: Chekc whether the Django package was installed properly>-------->python -m pip list
