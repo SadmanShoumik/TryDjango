@@ -7,5 +7,6 @@ Step 06: Check if the virtual envronment was created properly> ls
 Step 07: If running scripts is disabled on your system> Set-ExecutionPolicy RemoteSigned
 Step 08: Activate the virtual environment> .\virtualenv\Scripts\Activate.ps1
 Step 09: Launch VS Code in the current directory> code .
+Step 10: Install Django> pip install Django
 
 Use for Reference: https://medium.com/@astontechnologies/how-to-setup-a-virtual-development-environment-for-python-with-windows-powershell-4cd34b2f9f9b
