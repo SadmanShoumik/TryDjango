@@ -1,15 +1,18 @@
 Steps to Setup a Virtual Environment on Windows using PowerShell:
 
-    Step 01: cd into desired folder.
-    Step 02: mkdir needed project directory.
-    Step 03: Check pip version> python -m pip list
-    Step 04: Update if necessary> python.exe -m pip install --upgrade pip
-    Step 05: Check installed packages> python -m pip list
-    Step 06: Check if the virtual envronment was created properly> ls
-    Step 07: If running scripts is disabled on your system> Set-ExecutionPolicy RemoteSigned
-    Step 08: Activate the virtual environment> .\virtualenv\Scripts\Activate.ps1
-    Step 09: Launch VS Code in the current directory> code .
-    Step 10: Install Django> pip install Django
-    Step 11: Deactivate Django> deactivate
+    Step 01: cd into desired folder>----------------------------------------->cd Django
+    Step 02: mkdir needed project directory>--------------------------------->mkdir TryDjango
+    Step 03: cd into the project folder>------------------------------------->cd TryDjango
+    Step 04: Check pip version>---------------------------------------------->python -m pip list
+    Step 05: Update if necessary>-------------------------------------------->python.exe -m pip install --upgrade pip
+    Step 06: Check installed packages before Django installation>------------>python -m pip list
+    Step 07: Create a virtual environment within the project folder>--------->python -m venv D:\Django\TryDjango\venv
+    Step 08: Check if the virtual envronment was created properly>----------->ls
+    Step 09: If running scripts is disabled on your system>------------------>Set-ExecutionPolicy RemoteSigned
+    Step 10: Activate the virtual environment>------------------------------->.\virtualenv\Scripts\Activate.ps1
+    Step 11: Launch VS Code in the current directory>------------------------>code .
+    Step 12: Install Django>------------------------------------------------->pip install Django
+    Step 13: Chekc whether the Django package was installed properly>-------->python -m pip list
+    Step 14: Deactivate Django>---------------------------------------------->deactivate
 
 Use for Reference: https://medium.com/@astontechnologies/how-to-setup-a-virtual-development-environment-for-python-with-windows-powershell-4cd34b2f9f9b
