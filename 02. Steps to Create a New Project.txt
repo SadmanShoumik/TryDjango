@@ -1,0 +1,11 @@
+Steps to Create a New Project using Powershell:
+
+    Step 01: cd into the virtual environment folder>------------------------->cd Django\TryDjango\venv
+    Step 02: Activate the virtual environment>------------------------------->./Scripts/Activate.ps1
+    Step 03: mkdir a source directory>--------------------------------------->mkdir src
+    Step 04: cd into the source folder>-------------------------------------->cd src
+    Step 05: Create a Django project and give it a name>--------------------->django-admin startproject trydjango .
+    Step 06: Check source folder contents>----------------------------------->ls
+    Step 07: Run Django project>--------------------------------------------->python manage.py runserver
+    Step 08: Go to designated server>---------------------------------------->e.g. http://127.x.x.1:8000/
+    Step 09: Sync project and database through settings>--------------------->python manage.py migrate (only works for sqlite)
