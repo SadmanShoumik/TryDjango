@@ -1,0 +1,4 @@
+Creating a SuperUser using PowerShell:
+
+    Step 01: Execute command for creating a SuperUser>------------------>python manage.py createsuperuser
+    Step 02: Provide necessary information>----------------------------->Username, Password etc.

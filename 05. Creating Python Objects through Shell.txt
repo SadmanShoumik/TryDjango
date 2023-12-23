@@ -1,0 +1,6 @@
+Creating Python Objects through Shell:
+
+    Step 01: Go into shell>--------------------------------------------->python manage.py shell
+    Step 02: Import model>---------------------------------------------->from products.models import Product
+    Step 03: Import Object>--------------------------------------------->Product.objects.all()
+    Step 04: Create a New Object>--------------------------------------->Product.objects.create(title='Product Name 2', description='abc', price='5', summary='none')

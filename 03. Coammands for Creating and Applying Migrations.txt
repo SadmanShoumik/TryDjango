@@ -1,0 +1,4 @@
+Commands for Creating and Applying Migrations using Powershell:
+
+    Step 01: Create a migration>--------------------------------------------->python manage.py makemigrations
+    Step 02: Apply the said migration>--------------------------------------->python manage.py migrate
